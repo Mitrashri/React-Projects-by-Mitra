@@ -1,0 +1,50 @@
+/* Write your code here. */
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 30%;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-warning {
+  background-color: #ffb800;
+  color: white;
+}
+
+.btn-success {
+  background-color: #2dca73;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #ff0b37;
+  color: white;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
